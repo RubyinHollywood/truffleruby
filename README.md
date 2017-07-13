@@ -88,16 +88,18 @@ It will be supported when Java 9 is released.
 
 #### How do I install gems?
 
-TruffleRuby cannot install gems out of the box yet, however there are 
-[temporary workarounds](doc/user/installing-gems.md) 
-which can be used to get it working. 
+TruffleRuby cannot install gems out of the box yet, however there are
+[temporary workarounds](doc/user/installing-gems.md)
+which can be used to get it working.
 
-## Getting Started
+## Getting Started Using TruffleRuby
 
 The best way to get started with TruffleRuby is via the GraalVM, which includes
 compatible versions of everything you need as well as TruffleRuby.
 
-http://www.oracle.com/technetwork/oracle-labs/program-languages/
+[Download GraalVM.](http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html). Currently, you need an Oracle account to download.
+
+After downloading GraalVM, unzip it. Retitle the directory to "truffleruby" and move it to the location your ruby version manager sources rubies. [See instructions here for the most common ruby version managers.](https://github.com/graalvm/truffleruby/blob/master/doc/user/ruby-managers.md#rvm)
 
 Inside the GraalVM is a `bin/ruby` command that runs TruffleRuby.
 See [Using TruffleRuby with GraalVM](doc/user/using-graalvm.md)
