@@ -97,11 +97,14 @@ which can be used to get it working.
 The best way to get started with TruffleRuby is via the GraalVM, which includes
 compatible versions of everything you need as well as TruffleRuby.
 
-1. [Download GraalVM.](http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html). Currently, you need an Oracle account to download.
+1.  [Download GraalVM.](http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html) Currently, you need an Oracle account to download.
 
-2. After downloading GraalVM, unzip it. Retitle the directory to "truffleruby" and move it to the location your ruby version manager sources rubies. [See instructions here for the most common ruby version managers.](https://github.com/graalvm/truffleruby/blob/master/doc/user/ruby-managers.md#rvm)
 
-3. Using your ruby version manager, switch to using truffleruby. 
+2.  After downloading GraalVM, unzip it. Retitle the directory to "truffleruby" and move it to the location your ruby version manager sources rubies. [See instructions here for the most common ruby version managers.](https://github.com/graalvm/truffleruby/blob/master/doc/user/ruby-managers.md#rvm)
+
+
+3.  Using your ruby version manager, switch to using truffleruby.
+
 
 Inside the GraalVM is a `bin/ruby` command that runs TruffleRuby.
 See [Using TruffleRuby with GraalVM](doc/user/using-graalvm.md)
